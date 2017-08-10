@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Крестики Нолики</string>
+    <string name="starLabel">Легкий</string>
+    <string name="MediumLabel">Средний</string>
+    <string name="HardLabel">Возможные уровни</string>
+    <string name="continueLabel">Продолжить</string>
+    <string name="exitLabel">Выход из игры</string>
+    <string name="menuLabel">Меню</string>
+
+    <string name="aiFirstLabel">Компьютер</string>
+    <string name="userFirstLabel">Игрок</string>
+    <string name="whosFirstLabel">Кто первый?</string>
+    <string name="youLabel">Компьютер</string>
+    <string name="aiLabel">Игрок</string>
+
+</resources>
