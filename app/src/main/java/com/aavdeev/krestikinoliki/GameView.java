@@ -62,7 +62,7 @@ public class GameView extends View {
                             * (bitmapCircle.getHeight() + 15), null);
                 }
             }
-        //current rank
+
         text.setAntiAlias(true);
         text.setColor(Color.BLACK);
         text.setTextSize(30);

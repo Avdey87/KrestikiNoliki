@@ -37,12 +37,15 @@ public class KrestikiNoliki extends Activity implements View.OnClickListener {
         switch (v.getId()) {
             case R.id.MediumDifficulty:
                 Game.KrestikiNoliki = new Board();
+                newGameDialog();
                 break;
             case R.id.HardDifficulty:
                 Game.KrestikiNoliki = new BoardHard();
+                newGameDialog();
                 break;
             case R.id.EasyDifficulty:
                 Game.KrestikiNoliki = new BoardDumb();
+                newGameDialog();
                 break;
             case R.id.exitButton:
                 finish();

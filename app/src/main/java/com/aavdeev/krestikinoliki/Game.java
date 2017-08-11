@@ -26,10 +26,7 @@ public class Game extends Activity {
     private int player;
     private int opponent;
     private int curMove;
-
-
     private GameView gameView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,6 +75,7 @@ public class Game extends Activity {
             SharedPreferences settings = getSharedPreferences(PREF_GAME, 0);
             SharedPreferences.Editor editor = settings.edit();
             editor.putString(PREF_NAME, setSavedState());
+            editor.commit();
 
         }
     }
